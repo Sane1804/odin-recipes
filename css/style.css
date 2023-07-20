@@ -1,4 +1,10 @@
+
+
+
+
+html,
 * {
+    box-sizing: border-box;
     text-decoration: none;
 }
 
@@ -14,24 +20,20 @@ body {
 }
 
 .list {
-    width: 90%;
-    height: 70px;
     list-style:none;
-    display:flex; 
-    margin: 50px auto;
-    padding: 20px 20px;
+    display:flex;
+    border: 1px solid black;
+    padding: 0;
+    margin: 150px auto;
 }
 
 .button-food {
-    color:white;
-    background-color: blue;
+    padding: 30px;
     border: 1px solid darkblue;
-    margin: 0px 10px;
-    width: 340px;
-    text-align: center;
-    padding: 22px;
-    font-size: 20px;
+    background-color:blue;
+    color:white;
     font-weight: 900;
+    margin: 0px 30px;
 }
 
 
@@ -39,3 +41,5 @@ body {
     text-align: left;
     padding-left: 50px;
 }
+
+
