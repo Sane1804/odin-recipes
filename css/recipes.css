@@ -1,0 +1,74 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    color: rgb(0,0,0,0.95);
+    background-color: khaki;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.85) inset;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.95);
+    margin-top: 0;
+}
+
+.intro {
+    width: 1100px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.intro img {
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px;
+    width: 500px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+}
+
+.content {
+    display: inline-block;
+    border: 1px solid black;
+    width: 580px;
+    height: 355px;
+    vertical-align: top;
+    padding: 30px;
+}
+
+.steps {
+    display: flex;
+    width: 1100px;
+    margin: 10px auto;
+    border: 1px solid blue;
+}
+
+.container {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px 40px;
+    width: 400px;
+}
+
+.one, .two{
+    margin-right: 20px;
+}
+
+
+
+
